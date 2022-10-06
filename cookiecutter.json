@@ -1,0 +1,18 @@
+{
+  "project_name": "My Awesome Project",
+  "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
+  "project_description": "Group manager bot",
+  "author_name": "Mukhtor Rasulov",
+  "username": "@botfather",
+  "version": "0.1.0",
+  "open_source_license": [
+    "Not open source",
+    "MIT",
+    "BSD",
+    "GPLv3",
+    "Apache Software License 2.0"
+  ],
+  "use_fastapi": "n",
+  "keep_envs_in_vcs": "y",
+  "use_pycharm": "y"
+}

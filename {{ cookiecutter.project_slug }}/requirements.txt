@@ -1,0 +1,4 @@
+aiogram==2.22.2
+{% if cookiecutter.use_fastapi == 'y' %}
+fastapi==0.85.0
+{% endif %}
